@@ -2,11 +2,11 @@
 
 var players = [
     {
-        name: { 
-            first: 'Devion', 
-            last: 'Whetstone' 
-        }, 
-        number: 1, 
+        name: {
+            first: 'Devion',
+            last: 'Whetstone'
+        },
+        number: 1,
         yearStudent: 'Senior',
         bioInfo: {
             height: {
@@ -14,8 +14,8 @@ var players = [
                 inches: 3
             },
             weight: {
-                pounds: 200,
-            },
+                pounds: 200
+            }
         },
         position: 'MB',
         Hometown: {
@@ -23,14 +23,14 @@ var players = [
             state: 'Texas',
             country: 'USA'
         },
-        previousSchool: 'The Village School',
-    }, 
+        previousSchool: 'The Village School'
+    },
     {
-        name: { 
-            first: 'Andrew', 
-            last: 'Washam' 
-        }, 
-        number: 2, 
+        name: {
+            first: 'Andrew',
+            last: 'Washam'
+        },
+        number: 2,
         yearStudent: 'Sophomore',
         bioInfo: {
             height: {
@@ -38,8 +38,8 @@ var players = [
                 inches: 2
             },
             weight: {
-                pounds: 160,
-            },
+                pounds: 160
+            }
         },
         position: 'OH',
         Hometown: {
@@ -47,14 +47,14 @@ var players = [
             state: 'Florida',
             country: 'USA'
         },
-        previousSchool: 'Boca Raton High School',
-    }, 
+        previousSchool: 'Boca Raton High School'
+    },
     {
-        name: { 
-            first: 'Gary', 
-            last: 'Baker' 
-        }, 
-        number: 3, 
+        name: {
+            first: 'Gary',
+            last: 'Baker'
+        },
+        number: 3,
         yearStudent: 'Sophomore',
         bioInfo: {
             height: {
@@ -62,8 +62,8 @@ var players = [
                 inches: 10
             },
             weight: {
-                pounds: 143,
-            },
+                pounds: 143
+            }
         },
         position: 'L',
         Hometown: {
@@ -71,14 +71,14 @@ var players = [
             state: 'Florida',
             country: 'USA'
         },
-        previousSchool: 'Lyman Hgh School',
-    }, 
+        previousSchool: 'Lyman Hgh School'
+    },
     {
-        name: { 
-            first: 'Gabriel', 
-            last: 'Castro' 
-        }, 
-        number: 5, 
+        name: {
+            first: 'Gabriel',
+            last: 'Castro'
+        },
+        number: 5,
         yearStudent: 'Freshman',
         bioInfo: {
             height: {
@@ -86,8 +86,8 @@ var players = [
                 inches: 3
             },
             weight: {
-                pounds: 175,
-            },
+                pounds: 175
+            }
         },
         position: 'OH',
         Hometown: {
@@ -95,14 +95,14 @@ var players = [
             state: '',
             country: 'Brazil'
         },
-        previousSchool: 'Colegio Rui Barbosa',
-    }, 
+        previousSchool: 'Colegio Rui Barbosa'
+    },
     {
-        name: { 
-            first: 'Jesse', 
-            last: 'Day' 
-        }, 
-        number: 6, 
+        name: {
+            first: 'Jesse',
+            last: 'Day'
+        },
+        number: 6,
         yearStudent: 'Sophomore',
         bioInfo: {
             height: {
@@ -110,8 +110,8 @@ var players = [
                 inches: 11
             },
             weight: {
-                pounds: 145,
-            },
+                pounds: 145
+            }
         },
         position: 'L',
         Hometown: {
@@ -119,14 +119,14 @@ var players = [
             state: 'Florida',
             country: 'USA'
         },
-        previousSchool: 'Colegio Rui Barbosa',
-    }, 
+        previousSchool: 'Colegio Rui Barbosa'
+    },
     {
-        name: { 
-            first: 'Luke', 
-            last: 'Grupe' 
-        }, 
-        number: 7, 
+        name: {
+            first: 'Luke',
+            last: 'Grupe'
+        },
+        number: 7,
         yearStudent: 'Senior',
         bioInfo: {
             height: {
@@ -134,8 +134,8 @@ var players = [
                 inches: 6
             },
             weight: {
-                pounds: 170,
-            },
+                pounds: 170
+            }
         },
         position: 'MB',
         Hometown: {
@@ -143,14 +143,14 @@ var players = [
             state: 'Kentucky',
             country: 'USA'
         },
-        previousSchool: 'Henry Clay High School',
-    }, 
+        previousSchool: 'Henry Clay High School'
+    },
     {
-        name: { 
-            first: 'Colton', 
-            last: 'Parsons' 
-        }, 
-        number: 68, 
+        name: {
+            first: 'Colton',
+            last: 'Parsons'
+        },
+        number: 68,
         yearStudent: 'Sophomore',
         bioInfo: {
             height: {
@@ -158,8 +158,8 @@ var players = [
                 inches: 4
             },
             weight: {
-                pounds: 155,
-            },
+                pounds: 155
+            }
         },
         position: 'S',
         Hometown: {
@@ -167,14 +167,14 @@ var players = [
             state: 'Wisconson',
             country: 'USA'
         },
-        previousSchool: 'Neenah High School',
-    }, 
+        previousSchool: 'Neenah High School'
+    },
     {
-        name: { 
-            first: 'Liam', 
-            last: 'Flaherty' 
-        }, 
-        number: 9, 
+        name: {
+            first: 'Liam',
+            last: 'Flaherty'
+        },
+        number: 9,
         yearStudent: 'Senior',
         bioInfo: {
             height: {
@@ -182,8 +182,8 @@ var players = [
                 inches: 1
             },
             weight: {
-                pounds: 190,
-            },
+                pounds: 190
+            }
         },
         position: 'L',
         Hometown: {
@@ -191,14 +191,14 @@ var players = [
             state: 'Illanois',
             country: 'USA'
         },
-        previousSchool: 'West Chicago Community High School',
-    }, 
+        previousSchool: 'West Chicago Community High School'
+    },
     {
-        name: { 
-            first: 'Leshon', 
-            last: 'Alexander' 
-        }, 
-        number: 10, 
+        name: {
+            first: 'Leshon',
+            last: 'Alexander'
+        },
+        number: 10,
         yearStudent: 'Senior',
         bioInfo: {
             height: {
@@ -206,8 +206,8 @@ var players = [
                 inches: 4
             },
             weight: {
-                pounds: 165,
-            },
+                pounds: 165
+            }
         },
         position: 'MB',
         Hometown: {
@@ -215,14 +215,14 @@ var players = [
             state: 'Massachusetts',
             country: 'USA'
         },
-        previousSchool: 'Barbados CC',
-    }, 
+        previousSchool: 'Barbados CC'
+    },
     {
-        name: { 
-            first: 'Luke', 
-            last: 'Hansen' 
-        }, 
-        number: 12, 
+        name: {
+            first: 'Luke',
+            last: 'Hansen'
+        },
+        number: 12,
         yearStudent: 'Senior',
         bioInfo: {
             height: {
@@ -230,8 +230,8 @@ var players = [
                 inches: 1
             },
             weight: {
-                pounds: 175,
-            },
+                pounds: 175
+            }
         },
         position: 'OH',
         Hometown: {
@@ -239,14 +239,14 @@ var players = [
             state: 'Nevada',
             country: 'USA'
         },
-        previousSchool: 'Las Vegas High School',
-    }, 
+        previousSchool: 'Las Vegas High School'
+    },
     {
-        name: { 
-            first: 'Artur', 
-            last: 'Cabral' 
-        }, 
-        number: 13, 
+        name: {
+            first: 'Artur',
+            last: 'Cabral'
+        },
+        number: 13,
         yearStudent: 'Junior',
         bioInfo: {
             height: {
@@ -254,8 +254,8 @@ var players = [
                 inches: 5
             },
             weight: {
-                pounds: 180,
-            },
+                pounds: 180
+            }
         },
         position: 'OH',
         Hometown: {
@@ -263,14 +263,14 @@ var players = [
             state: '',
             country: 'Brazil'
         },
-        previousSchool: 'Colegio Pitagroas Cidade Jardim',
-    }, 
+        previousSchool: 'Colegio Pitagroas Cidade Jardim'
+    },
     {
-        name: { 
-            first: 'Josiah', 
-            last: 'Douglas' 
-        }, 
-        number: 14, 
+        name: {
+            first: 'Josiah',
+            last: 'Douglas'
+        },
+        number: 14,
         yearStudent: 'Freshman',
         bioInfo: {
             height: {
@@ -278,8 +278,8 @@ var players = [
                 inches: 4
             },
             weight: {
-                pounds: 170,
-            },
+                pounds: 170
+            }
         },
         position: 'OH',
         Hometown: {
@@ -287,14 +287,14 @@ var players = [
             state: 'Massachusetts',
             country: 'USA'
         },
-        previousSchool: 'Chicopee Comprehensive High School',
-    }, 
+        previousSchool: 'Chicopee Comprehensive High School'
+    },
     {
-        name: { 
-            first: 'Joao', 
-            last: 'Victor Santos' 
-        }, 
-        number: 15, 
+        name: {
+            first: 'Joao',
+            last: 'Victor Santos'
+        },
+        number: 15,
         yearStudent: 'Freshman',
         bioInfo: {
             height: {
@@ -302,8 +302,8 @@ var players = [
                 inches: 7
             },
             weight: {
-                pounds: 202,
-            },
+                pounds: 202
+            }
         },
         position: 'MB',
         Hometown: {
@@ -311,14 +311,14 @@ var players = [
             state: '',
             country: 'Brazil'
         },
-        previousSchool: 'Centro Educational Brasil Futuro',
-    }, 
+        previousSchool: 'Centro Educational Brasil Futuro'
+    },
     {
-        name: { 
-            first: 'Aleksa', 
-            last: 'Bijelic' 
-        }, 
-        number: 16, 
+        name: {
+            first: 'Aleksa',
+            last: 'Bijelic'
+        },
+        number: 16,
         yearStudent: 'Sophomore',
         bioInfo: {
             height: {
@@ -326,8 +326,8 @@ var players = [
                 inches: 1
             },
             weight: {
-                pounds: 158,
-            },
+                pounds: 158
+            }
         },
         position: 'S',
         Hometown: {
@@ -335,14 +335,14 @@ var players = [
             state: '',
             country: 'Serbia'
         },
-        previousSchool: 'Politechnical High School',
-    }, 
+        previousSchool: 'Politechnical High School'
+    },
     {
-        name: { 
-            first: 'James', 
-            last: 'Fulton' 
-        }, 
-        number: 17, 
+        name: {
+            first: 'James',
+            last: 'Fulton'
+        },
+        number: 17,
         yearStudent: 'Sophomore',
         bioInfo: {
             height: {
@@ -350,8 +350,8 @@ var players = [
                 inches: 2
             },
             weight: {
-                pounds: 175,
-            },
+                pounds: 175
+            }
         },
         position: 'MB',
         Hometown: {
@@ -359,13 +359,13 @@ var players = [
             state: 'New York',
             country: 'USA'
         },
-        previousSchool: 'Holy Trinity High School',
-    }, 
+        previousSchool: 'Holy Trinity High School'
+    }
     
 ];
 
-var totalInches = ( players[0].height.feet * 12 ) + players[0].height.inches;
-alert( players[0].name.first + ' ' + players[0].name.last + ' is ' + totalInches + ' inches tall.' );
+var totalInches = (players[0].height.feet * 12) + players[0].height.inches;
+alert(players[0].name.first + ' ' + players[0].name.last + ' is ' + totalInches + ' inches tall.');
 
 
 /*
@@ -385,3 +385,4 @@ hometown
     state
     country
 previous school
+*/

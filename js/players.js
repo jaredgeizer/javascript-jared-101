@@ -360,12 +360,25 @@ var players = [
             country: 'USA'
         },
         previousSchool: 'Holy Trinity High School'
+    },
+    {
+        allPlayers: 'Thats all folks'
     }
-    
 ];
 
-var totalInches = (players[0].height.feet * 12) + players[0].height.inches;
-alert(players[0].name.first + ' ' + players[0].name.last + ' is ' + totalInches + ' inches tall.');
+var totalInches = (players[0].bioInfo.height.inches * 12) + players[0].bioInfo.height.inches;
+console.log(players[0].name.first + ' ' + players[0].name.last + ' is ' + totalInches + ' inches tall.');
+
+
+
+
+//trying to figure out how to display the number of players on the team
+var numberOfplayers = players.indexOf('Thats all folks');
+console.log(numberOfplayers);
+
+
+
+
 
 
 /*
@@ -374,11 +387,12 @@ name
     last
 number
 year
-height
-    feet
-    inches
-weight
-    pounds
+bioInfo
+    height
+        feet
+        inches
+    weight
+        pounds
 position
 hometown
     town

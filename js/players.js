@@ -360,26 +360,41 @@ var players = [
             country: 'USA'
         },
         previousSchool: 'Holy Trinity High School'
-    },
-    {
-        allPlayers: 'Thats all folks'
     }
+    
 ];
 
-var totalInches = (players[0].bioInfo.height.inches * 12) + players[0].bioInfo.height.inches;
+var totalInches = (players[0].bioInfo.height.feet * 12) + players[0].bioInfo.height.inches;
 console.log(players[0].name.first + ' ' + players[0].name.last + ' is ' + totalInches + ' inches tall.');
 
 
 
 
-//trying to figure out how to display the number of players on the team
-var numberOfplayers = players.indexOf('Thats all folks');
-console.log(numberOfplayers);
+//number of players on the team
+var numberOfplayers = players.length;
+console.log(numberOfplayers + ' players on the team');
 
 
+//if statement that runs through each player to find the tallest one
+for (var i = 0; i <= players.length; i++ ){
+    
+    var firstPlayer = (players[i].bioInfo.height.feet * 12) + players[i].bioInfo.height.inches;
+    console.log(players[i].name.first + ' ' + firstPlayer);
+}
+    var secondPlayer = (players[i].bioInfo.height.feet * 12) + players[i].bioInfo.height.inches;
 
+   // i need to have the console.log get the first players height, then add one to 'i' and get the next players height, then is runs through each individual one to find the tallest player
+if (firstPlayer > secondPlayer) {
+    console.log("tallest player");
+} else if(firstPlayer > secondPlayer){
+    console.log("tallest player");
+} else{}
 
+ 
+    
+    
 
+    
 
 /*
 name
